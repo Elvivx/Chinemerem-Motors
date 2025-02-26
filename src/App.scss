@@ -1,0 +1,23 @@
+// #root {
+//   max-width: 1280px;
+//   margin: 0 auto;
+//   padding: 2rem;
+//   text-align: center;
+// }
+* {
+  box-sizing: border-box;
+}
+body {
+  li {
+    transition: 0.2s ease-in-out;
+  }
+}
+.hero {
+  // background-image: linear-gradient(rgba(0, 0, 0, 0));
+  background-image: url(../src/assets/imgs/ananya-mittal-UOf2cibMeQ4-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.743);
+  background-blend-mode: multiply;
+  // background: black;
+}
