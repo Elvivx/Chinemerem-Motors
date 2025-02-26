@@ -1,13 +1,12 @@
-import Home from "./Components/Home"
+// import Home from "./Components/Home"
 import "../src/App.scss"
-import Footer from "./Components/Footer"
+// import Footer from "./Components/Footer"
+import Layout from "./layout/layout"
+import AppRouter from "./router/Routes"
 function App() {
   return (
     <>
-      <main>
-        <Home />
-        <Footer />
-      </main>
+      <AppRouter />
     </>
   )
 }

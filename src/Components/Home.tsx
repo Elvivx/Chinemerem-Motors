@@ -1,4 +1,6 @@
-// import img from "../assets/imgs/galen-crout-FBOZsPbqhfM-unsplash.jpg"
+import { Link } from "react-router-dom"
+import Footer from "./Footer"
+
 function Home() {
   return (
     <>
@@ -11,18 +13,26 @@ function Home() {
             </div>
             <nav className='w-[60%]'>
               <ul className='flex items-center justify-evenly text-xl'>
-                <li className='text-white  hover:-translate-y-2 cursor-pointer py-4 font-semibold'>
-                  <span className='border-b-red-500 hover:border-b-white border-b-2'>Services</span>
-                </li>
-                <li className='   text-white hover:-translate-y-2 cursor-pointer py-4 font-semibold'>
-                  <span className='border-b-red-500 hover:border-b-white border-b-2'>Invest</span>
-                </li>
-                <li className='text-white hover:-translate-y-2 cursor-pointer py-4 font-semibold'>
-                  <span className='border-b-red-500 hover:border-b-white border-b-2'>About</span>
-                </li>
-                <li className='text-white hover:-translate-y-2 cursor-pointer py-4 font-semibold'>
-                  <span className='border-b-red-500 hover:border-b-white border-b-2'>Contact</span>
-                </li>
+                <Link to='/services'>
+                  <li className='text-white hover:-translate-y-2 cursor-pointer py-4 font-semibold'>
+                    <span className='border-b-red-500 hover:border-b-white border-b-2'>Services</span>
+                  </li>
+                </Link>
+                <Link to='/invest'>
+                  <li className='text-white hover:-translate-y-2 cursor-pointer py-4 font-semibold'>
+                    <span className='border-b-red-500 hover:border-b-white border-b-2'>Invest</span>
+                  </li>
+                </Link>
+                <Link to='/about'>
+                  <li className='text-white hover:-translate-y-2 cursor-pointer py-4 font-semibold'>
+                    <span className='border-b-red-500 hover:border-b-white border-b-2'>About</span>
+                  </li>
+                </Link>
+                <Link to='contact'>
+                  <li className='text-white hover:-translate-y-2 cursor-pointer py-4 font-semibold'>
+                    <span className='border-b-red-500 hover:border-b-white border-b-2'>Contact</span>
+                  </li>
+                </Link>
               </ul>
             </nav>
             <button className='p-3 rounded-xl border-2 border-red-700 text-m font-bold text-white bg-red-500 mr-5'>Join Us Today</button>
@@ -128,6 +138,7 @@ function Home() {
           </div>
         </div>
       </section>
+      <Footer />
     </>
   )
 }
