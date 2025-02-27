@@ -155,28 +155,28 @@ function Services() {
         </div>
 
         <div className='flex flex-wrap gap-6 justify-center mb-10'>
-          <div className='bg-red-500 text-white rounded-xl w-[400px]  p-5'>
+          <div className='bg-[#1a1a21] text-white rounded-xl w-[400px]  p-5'>
             <h1 className='text-2xl font-bold mb-6'>Hire Purchase</h1>
             <p>We give you ownership of a tricycle or car, with low deposit/instalment till completion of the hire purchase amount</p>
           </div>
 
-          <div className='bg-red-500 text-white rounded-xl w-[400px]  p-5'>
+          <div className='bg-[#1a1a21] text-white rounded-xl w-[400px]  p-5'>
             <h1 className='text-2xl font-bold mb-6'>Airport Drop / Pick-Up</h1>
             <p>We provide premium transportation for airport drops and pick-ups with our executive cars and well groomed drivers</p>
           </div>
-          <div className='card bg-red-500 text-white rounded-xl w-[400px]  p-5'>
+          <div className='card bg-[#1a1a21] text-white rounded-xl w-[400px]  p-5'>
             <h1 className='text-2xl font-bold mb-6'>Special / Interstate Movement within Nigeria</h1>
             <p>Our executive and premium vehicles are available and affordable for movement within Nigeria</p>
           </div>
-          <div className='bg-red-500 text-white rounded-xl w-[400px]  p-5'>
+          <div className='bg-[#1a1a21] text-white rounded-xl w-[400px]  p-5'>
             <h1 className='text-2xl font-bold mb-6'>Tricycle/Cars Investment/Management</h1>
             <p>We are a reputable vehicle management company. We are responsible for maintenance and every risk associated with management of your vehicles while you get paid</p>
           </div>
-          <div className='bg-red-500 text-white rounded-xl w-[400px]  p-5'>
+          <div className='bg-[#1a1a21] text-white rounded-xl w-[400px]  p-5'>
             <h1 className='text-2xl font-bold mb-6'>Car Rentals/Hire</h1>
             <p>Our air-conditioned fleet of cars is very comfortable for ride hailing services. Movements have been made easy with our Enviable App on the Apple store and Android play store</p>
           </div>
-          <div className='bg-red-500 text-white rounded-xl w-[400px]  p-5'>
+          <div className='bg-[#1a1a21] text-white rounded-xl w-[400px]  p-5'>
             <h1 className='text-2xl font-bold mb-6'>{`Tricycle (Keke) Spare Part Sales`}</h1>
             <p>Our range of services includes the selling of durable and original tricycles (keke) parts and tricycles at affordable rates</p>
           </div>

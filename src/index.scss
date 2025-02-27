@@ -21,9 +21,9 @@
 @tailwind utilities;
 
 @layer utilities {
-  .text-outline {
-    -webkit-text-stroke: 0.5px white;
-    color: #ffffff;
+  .textOutline {
+    // -webkit-text-stroke: 0.5px white;
+    // color: red;
   }
   .home {
     svg {

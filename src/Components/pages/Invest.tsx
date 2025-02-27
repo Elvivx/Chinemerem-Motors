@@ -14,35 +14,38 @@ function Invest() {
         </h1>
         <p>Grow your wealth with strategic investments. Join us in creating a prosperous future with high-yield opportunities tailored for you.</p>
       </div>
-      <div className='flex flex-wrap gap-5 w-[1000px] m-auto my-12'>
-        <div className='w-[300px] bg-red-500 p-5 rounded-xl flex flex-col'>
-          <div className='border-2 border-red-400 w-full h-[200px] darken'>
+      <div className='flex flex-wrap gap-10 w-[1300px] m-auto my-12'>
+        <div className='w-full bg-[#1a1a21] p-5 rounded-xl flex gap-5'>
+          <div className='border-2 border-red-400 w-[100%] h-[300px] rounded-lg overflow-hidden darken '>
             <img src='../../public/imgs/sedan.jpg' alt='#' className='object-cover object-center w-full h-full' />
           </div>
-          <h1 className='font-bold text-2xl my-5'>Car Purchase</h1>
-          <p> Explore our premium selection of vehicles at unbeatable prices. Drive home your dream car with flexible financing options and hassle-free purchases.</p>
-          <button className='p-3 rounded-lg font-bold text-black bg-white w-full mt-auto'>Get Started</button>
+          <div className=' flex flex-col w-[100%]'>
+            <h1 className='font-bold text-4xl my-5'>Car Purchase</h1>
+            <p className='text-xl'> Explore our premium selection of vehicles at unbeatable prices. Drive home your dream car with flexible financing options and hassle-free purchases.</p>
+            <button className='p-3 rounded-lg font-bold text-black bg-white w-full mt-auto'>Get Started</button>
+          </div>
         </div>
 
-        <div className='w-[300px] bg-red-500 p-5 rounded-xl'>
-          <div className='border-2 border-red-400 w-full h-[200px] darken'>
+        <div className='w-full bg-[#1a1a21] p-5 rounded-xl flex gap-5'>
+          <div className='border-2 border-red-400 w-full h-[300px] rounded-lg overflow-hidden order-2 darken '>
             <img src='../../../public/imgs/bus.jpg' alt='#' className='object-cover object-center w-full h-full' />
           </div>
-          <h1 className='font-bold text-2xl my-5'>Bus Purchase</h1>
-          <p>
-            Enjoy competitive pricing, flexible financing options, and expert guidance throughout the buying process. Take the next step in your transport journey—browse our collection and make a
-            smart investment today!
-          </p>
-          <button className='p-3 rounded-lg font-bold text-black bg-white w-full mt-5'>Get Started</button>
+          <div className=' flex flex-col  w-[100%]'>
+            <h1 className='font-bold text-4xl my-5 '>Bus Purchase</h1>
+            <p className='text-xl'>Enjoy competitive pricing, flexible financing options, and expert guidance throughout the buying process.Browse our collection and make a smart investment today!</p>
+            <button className='p-3 rounded-lg font-bold text-black bg-white w-full mt-auto'>Get Started</button>
+          </div>
         </div>
 
-        <div className='w-[300px] bg-red-500 p-5 rounded-xl flex flex-col'>
-          <div className='border-2 border-red-400 w-full h-[200px] darken'>
+        <div className='w-full bg-[#1a1a21] p-5 rounded-xl flex gap-5'>
+          <div className='border-2 border-red-400 w-full h-[300px] rounded-lg overflow-hidden darken '>
             <img src='../../../public/imgs/keke.jpg' alt='#' className='object-cover object-center w-full h-full' />
           </div>
-          <h1 className='font-bold text-2xl my-5'>Tricycle Purchase</h1>
-          <p> Affordable, durable, and fuel-efficient—perfect for personal or business use. Get yours now and start riding towards success!</p>
-          <button className='p-3 rounded-lg font-bold text-black bg-white w-full mt-auto'>Get Started</button>
+          <div className=' flex flex-col w-[100%]'>
+            <h1 className='font-bold text-4xl my-5'>Tricycle Purchase</h1>
+            <p className='text-xl'> Affordable, durable, and fuel-efficient—perfect for personal or business use. Get yours now and start riding towards success!</p>
+            <button className='p-3 rounded-lg font-bold text-black bg-white w-full mt-auto'>Get Started</button>
+          </div>
         </div>
       </div>
 
@@ -52,7 +55,7 @@ function Invest() {
           Invest in Vehicle Ownership and Reap Returns: Join us in investment and enjoy lucrative ROI. Invest in a vehicle with us and unlock the potential for substantial returns on your investment
           and unlock the potential for substantial returns on your investment.
         </p>
-        <button>Book a call with Us</button>
+        <button className='rounded-full py-4 px-8 font-bold text-2xl bg-red-500 my-6'>Book a call with Us</button>
       </div>
       <Footer />
     </section>

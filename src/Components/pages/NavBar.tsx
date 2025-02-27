@@ -5,9 +5,10 @@ function NavBar() {
     <header className=' w-full'>
       <div className='flex justify-between items-center  bg-[#0B0B0D] min-w-[50%] overflow-hidden'>
         <NavLink to='/' className='logo flex flex-col items-center bg-black py-2 text-white px-1 w-[20%] '>
-          <span>CM</span>
-          <span>CHINEMEREM MOTORS</span>
-          {/* </div> */}
+          <div className='w-[100px] '>
+            <img src='../../../public/imgs/cmLogo.png' alt='logo' className='w-full h-full object-contain object-center' />
+          </div>
+          <span className=' tracking-wide textOutline '>CHINEMEREM MOTORS</span>
         </NavLink>
         <nav className='w-[60%]'>
           <ul className='flex items-center justify-evenly text-xl'>

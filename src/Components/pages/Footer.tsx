@@ -1,14 +1,17 @@
+import { NavLink } from "react-router-dom"
+
 function Footer() {
   return (
     <footer className='bg-[#1a1a21] p-[50px]'>
-      <div className='footer-content'>
-        <h2 className='text-2xl font-bold mb-5'>
-          <span>CM</span>
-          <br />
-          <span>CHINEMEREM MOTORS</span>
-        </h2>
+      <div className='footer-content max-w-[1400px] m-auto'>
+        <NavLink to='/' className='logo flex flex-col items-center py-7 text-white px-1 w-fit outline-red-400 '>
+          <div className='w-[100px] '>
+            <img src='../../../public/imgs/cmLogo.png' alt='logo' className='w-full h-full object-contain object-center' />
+          </div>
+          <span className=' tracking-wide textOutline '>CHINEMEREM MOTORS</span>
+        </NavLink>
         <div>
-          <div className='flex justify-evenly'>
+          <div className='flex justify-between'>
             <div className=''>
               <h2 className='text-2xl font-bold text-red-500'>Enviable for</h2>
               <div className='flex flex-col gap-3'>
@@ -31,27 +34,27 @@ function Footer() {
             </div>
             <div className=''>
               <h2 className='text-2xl font-bold text-red-500'>Resources</h2>
-              <div className='css-2xph3x'>
-                <a target='_blank' className='chakra-link css-15oampj' href='mailto:info@enviabletransport.com.ng'>
+              <div className=''>
+                <a target='_blank' className='' href='mailto:info@enviabletransport.com.ng'>
                   Get a demo
                 </a>
               </div>
             </div>
             <div className=''>
               <h2 className='text-2xl font-bold text-red-500'>Company</h2>
-              <div className='css-2xph3x'>
-                <a target='_self' className='chakra-link css-15oampj' href='/about'>
+              <div className='flex flex-col'>
+                <a target='_self' className='' href='/about'>
                   About us
                 </a>
-                <a target='_blank' className='chakra-link css-15oampj' href='mailto:info@enviabletransport.com.ng'>
+                <a target='_blank' className='' href='mailto:info@enviabletransport.com.ng'>
                   Contact us
                 </a>
               </div>
             </div>
             <div className=''>
               <h2 className='text-2xl font-bold text-red-500'>Terms for</h2>
-              <div className='css-2xph3x'>
-                <a target='_self' className='chakra-link css-15oampj' href='/legal'>
+              <div className=''>
+                <a target='_self' className='' href='/legal'>
                   Legal
                 </a>
               </div>

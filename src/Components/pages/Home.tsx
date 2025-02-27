@@ -9,7 +9,7 @@ function Home() {
         <div className='hero border-red-600 h-dvh flex items-center p-40 '>
           <div className=' w-[50%] '>
             <h1 className='text-8xl font-bold text-[#17171b] '>
-              <span className='text-outline'>Seamless Transport, Anytime,</span>
+              <span className='text-white'>Seamless Transport, Anytime,</span>
               <span className='text-red-500 underline'>Anywhere.</span>
             </h1>
             <p className='pt-8 text-xl'>
