@@ -4,8 +4,9 @@
 //   padding: 2rem;
 //   text-align: center;
 // }
-
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
 body {
+  font-family: "Outfit", serif;
   li {
     transition: 0.2s ease-in-out;
   }
