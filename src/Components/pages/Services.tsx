@@ -6,7 +6,7 @@ function Services() {
     <>
       <NavBar />
       <section className='text-black '>
-        <div className='min-h-[500px] flex items-center justify-center mb-10 bgImage'>
+        <div className='min-h-[500px] flex items-center justify-center mb-10 ServicesBgImage'>
           <h2 className='text-red-500 text-center text-7xl font-bold  '>Our Services</h2>
         </div>
 
