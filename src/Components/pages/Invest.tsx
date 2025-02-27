@@ -16,7 +16,7 @@ function Invest() {
       </div>
       <div className='flex flex-wrap gap-5 w-[1000px] m-auto my-12'>
         <div className='w-[300px] bg-red-500 p-5 rounded-xl flex flex-col'>
-          <div className='border-2 border-red-400 w-full h-[200px]'>
+          <div className='border-2 border-red-400 w-full h-[200px] darken'>
             <img src='../../public/imgs/sedan.jpg' alt='#' className='object-cover object-center w-full h-full' />
           </div>
           <h1 className='font-bold text-2xl my-5'>Car Purchase</h1>
@@ -25,8 +25,8 @@ function Invest() {
         </div>
 
         <div className='w-[300px] bg-red-500 p-5 rounded-xl'>
-          <div className='border-2 border-red-400 w-full h-[200px]'>
-            <img src='#' alt='#' className='object-cover object-center w-full h-full' />
+          <div className='border-2 border-red-400 w-full h-[200px] darken'>
+            <img src='../../../public/imgs/bus.jpg' alt='#' className='object-cover object-center w-full h-full' />
           </div>
           <h1 className='font-bold text-2xl my-5'>Bus Purchase</h1>
           <p>
@@ -37,13 +37,22 @@ function Invest() {
         </div>
 
         <div className='w-[300px] bg-red-500 p-5 rounded-xl flex flex-col'>
-          <div className='border-2 border-red-400 w-full h-[200px]'>
+          <div className='border-2 border-red-400 w-full h-[200px] darken'>
             <img src='../../../public/imgs/keke.jpg' alt='#' className='object-cover object-center w-full h-full' />
           </div>
           <h1 className='font-bold text-2xl my-5'>Tricycle Purchase</h1>
           <p> Affordable, durable, and fuel-efficient—perfect for personal or business use. Get yours now and start riding towards success!</p>
           <button className='p-3 rounded-lg font-bold text-black bg-white w-full mt-auto'>Get Started</button>
         </div>
+      </div>
+
+      <div className='text-black text-center w-[1000px] m-auto'>
+        <h1 className='text-2xl font-bold'>Why Invest With Us</h1>
+        <p className=''>
+          Invest in Vehicle Ownership and Reap Returns: Join us in investment and enjoy lucrative ROI. Invest in a vehicle with us and unlock the potential for substantial returns on your investment
+          and unlock the potential for substantial returns on your investment.
+        </p>
+        <button>Book a call with Us</button>
       </div>
       <Footer />
     </section>
