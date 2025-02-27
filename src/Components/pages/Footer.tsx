@@ -10,6 +10,8 @@ function Footer() {
           </div>
           <span className=' tracking-wide textOutline '>CHINEMEREM MOTORS</span>
         </NavLink>
+
+        <hr className='mb-8' />
         <div>
           <div className='flex justify-between'>
             <div className=''>
