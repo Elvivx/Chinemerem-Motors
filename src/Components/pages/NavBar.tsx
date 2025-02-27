@@ -10,8 +10,8 @@ function NavBar() {
           </div>
           <span className=' tracking-wide textOutline '>CHINEMEREM MOTORS</span>
         </NavLink>
-        <nav className='w-[60%]'>
-          <ul className='flex items-center justify-evenly text-xl'>
+        <nav className='w-[100%] flex justify-between items-center'>
+          <ul className='flex items-center justify-evenly text-xl w-full'>
             <NavLink to='/services'>
               <li className='text-white hover:-translate-y-2 cursor-pointer py-4 font-semibold'>
                 <span className='border-b-red-500 hover:border-b-white border-b-2'>Services</span>
@@ -33,8 +33,8 @@ function NavBar() {
               </li>
             </NavLink>
           </ul>
+          <button className='p-3 rounded-xl border-2 border-red-700 text-m font-bold text-white bg-red-600 mr-5 min-w-[140px] ml-6'>Join Us Today</button>
         </nav>
-        <button className='p-3 rounded-xl border-2 border-red-700 text-m font-bold text-white bg-red-500 mr-5'>Join Us Today</button>
       </div>
     </header>
   )

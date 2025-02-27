@@ -4,18 +4,20 @@ import NavBar from "./NavBar"
 function Home() {
   return (
     <>
-      <section className='home relative '>
-        <NavBar />
-        <div className='hero border-red-600 h-dvh flex items-center p-40 '>
-          <div className=' w-[50%] '>
-            <h1 className='text-8xl font-bold text-[#17171b] '>
-              <span className='text-white'>Seamless Transport, Anytime,</span>
-              <span className='text-red-500 underline'>Anywhere.</span>
-            </h1>
-            <p className='pt-8 text-xl'>
-              "Reliable and efficient transportation services tailored to your needs. Whether it's local deliveries or long-distance hauls, we ensure safety, speed, and convenience every step of the
-              way." 🚛✨
-            </p>
+      <section className='home relative flex flex-col gap-20'>
+        <div>
+          <NavBar />
+          <div className='hero border-red-600 h-dvh flex items-center p-40 '>
+            <div className=' w-[50%] '>
+              <h1 className='text-8xl font-bold text-[#17171b] '>
+                <span className='text-white'>Seamless Transport, Anytime,</span>
+                <span className='text-red-500 underline'>Anywhere.</span>
+              </h1>
+              <p className='pt-8 text-xl'>
+                "Reliable and efficient transportation services tailored to your needs. Whether it's local deliveries or long-distance hauls, we ensure safety, speed, and convenience every step of the
+                way." 🚛✨
+              </p>
+            </div>
           </div>
         </div>
         <div className='text-black py-8'>
@@ -23,15 +25,15 @@ function Home() {
           <div className='flex gap-3 w-[1500px] m-auto'>
             <div className='card border-2 border-red-500 p-4 rounded-xl w-fit bg-red-500 text-white max-w-fit'>
               <div className='icon'>
-                <svg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg' height='50' width='50'>
+                <svg viewBox='0 0 256 256' height='50' width='50'>
                   <rect fill='none' height='50' width='50' />
-                  <line fill='none' stroke='#fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='8' x1='16' x2='240' y1='120' y2='120' />
-                  <path d='M224,184v24a8,8,0,0,1-8,8H192a8,8,0,0,1-8-8V184' fill='none' stroke='#fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='8' />
-                  <path d='M72,184v24a8,8,0,0,1-8,8H40a8,8,0,0,1-8-8V184' fill='none' stroke='#fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='8' />
-                  <line fill='none' stroke='#fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='8' x1='64' x2='80' y1='152' y2='152' />
-                  <line fill='none' stroke='#fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='8' x1='176' x2='192' y1='152' y2='152' />
-                  <path d='M224,120,194.3,68a7.9,7.9,0,0,0-6.9-4H68.6a7.9,7.9,0,0,0-6.9,4L32,120v64H224Z' fill='none' stroke='#fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='8' />
-                  <line fill='none' stroke='#fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='8' x1='104' x2='152' y1='32' y2='32' />
+                  <line fill='none' stroke='#fff' strokeLinecap='round' strokeLinejoin='round' strokeWidth='8' x1='16' x2='240' y1='120' y2='120' />
+                  <path d='M224,184v24a8,8,0,0,1-8,8H192a8,8,0,0,1-8-8V184' fill='none' stroke='#fff' strokeLinecap='round' strokeLinejoin='round' strokeWidth='8' />
+                  <path d='M72,184v24a8,8,0,0,1-8,8H40a8,8,0,0,1-8-8V184' fill='none' stroke='#fff' strokeLinecap='round' strokeLinejoin='round' strokeWidth='8' />
+                  <line fill='none' stroke='#fff' strokeLinecap='round' strokeLinejoin='round' strokeWidth='8' x1='64' x2='80' y1='152' y2='152' />
+                  <line fill='none' stroke='#fff' strokeLinecap='round' strokeLinejoin='round' strokeWidth='8' x1='176' x2='192' y1='152' y2='152' />
+                  <path d='M224,120,194.3,68a7.9,7.9,0,0,0-6.9-4H68.6a7.9,7.9,0,0,0-6.9,4L32,120v64H224Z' fill='none' stroke='#fff' strokeLinecap='round' strokeLinejoin='round' strokeWidth='8' />
+                  <line fill='none' stroke='#fff' strokeLinecap='round' strokeLinejoin='round' strokeWidth='8' x1='104' x2='152' y1='32' y2='32' />
                 </svg>
                 <h2 className='text-2xl'>Share Rides</h2>
               </div>
@@ -40,7 +42,7 @@ function Home() {
             </div>
             <div className='card border-2 border-red-500 p-4 rounded-xl w-fit bg-red-500 text-white max-w-fit'>
               <div className='icon'>
-                <svg data-name='Layer 1' height='50' id='Layer_1' viewBox='0 0 32 32' width='50' xmlns='http://www.w3.org/2000/svg'>
+                <svg data-name='Layer 1' height='50' id='Layer_1' viewBox='0 0 32 32' width='50'>
                   <path d='M23,17H19.4141L16,13H14l2.5859,4H10.7207L9.5,15H8l1.0569,3.3046A1,1,0,0,0,10.0094,19H23a1,1,0,0,0,0-2Z' transform='translate(0 0)' />
                   <path d='M16,30A14,14,0,1,1,30,16,14.0158,14.0158,0,0,1,16,30ZM16,4A12,12,0,1,0,28,16,12.0137,12.0137,0,0,0,16,4Z' transform='translate(0 0)' />
                   <rect className='cls-1' data-name='&lt;Transparent Rectangle&gt;' height='50' id='_Transparent_Rectangle_' width='50' fill='none' />
@@ -105,7 +107,57 @@ function Home() {
             </div>
           </div>
         </div>
+
+        <div className='flex items-center gap-5 max-w-[1500px] m-auto'>
+          <div className='w-[100%] h-[400px] rounded-xl overflow-hidden mb-10'>
+            <img src='../../../public/imgs/fleeet.jpg' alt='Fleet' className='w-full h-full object-cover object-center' />
+          </div>
+          <div className='text-black'>
+            <h1 className='text-4xl mb-4'>Invest in Vehicle Ownership and Reap Returns:</h1>
+            <p className='text-lg'>
+              Experience the thrill of investing in vehicle ownership with Chinemerem Motors. By partnering with us, you not only acquire ownership of high-quality vehicles but also unlock the
+              potential for substantial returns on your investment. Whether you opt for our hire purchase plans for keke or cars, rest assured that your investment is poised to yield impressive
+              returns.
+            </p>
+          </div>
+        </div>
+
+        <div className='w-full h-[400px]'>
+          <img src='../../../public/imgs/traffic.jpg' alt='' className='h-full w-full object-cover' />
+        </div>
+
+        <div className='text-black text-center w-[1500px] m-auto mb-20'>
+          <h1 className='text-5xl font-bold mb-5'>Invest with us</h1>
+          <p className='text-xl mb-5'>
+            Unlock Lucrative Returns on Investment through Vehicle Ownership: Partner with us in investment and leverage the potential for substantial ROI. By investing in a vehicle with us, you'll
+            open the door to significant returns on your investment.
+          </p>
+          <button className='py-3 px-6 rounded-xl bg-red-600 font-semibold text-xl text-white hover:bg-red-800'>Get Started</button>
+        </div>
+
+        <div className='border-2 border-red-600 p-20 relative'>
+          <div className='w-fit m-auto border-2 border-blue-600 relative '>
+            <div className='flex items-center m-auto border-2 border-blue-600 w-fit gap-20 p-20 pb-0 bg-[#1a1a21] rounded-xl z-2'>
+              <div className='w-[200px] h-[200px] '>
+                <img src='../../../public/imgs/people.svg' alt='' className='w-full h-full object-cover' />
+              </div>
+
+              <div>
+                <h1 className='text-2xl font-semibold pb-5'>Try It Out Today!</h1>
+                <button className='py-3 px-6 rounded-xl bg-red-600 font-semibold text-xl text-white hover:bg-red-800'>Get Started</button>
+              </div>
+
+              <div className='w-[200px] h-[200px] '>
+                <img src='../../../public/imgs/phone.svg' alt='' className='w-full h-full object-cover' />
+              </div>
+            </div>
+            <div className='z-1 rounded-full p-20 bg-red-700 absolute -top-10'></div>
+            <div className='z-1 rounded-full p-20 bg-red-700 absolute -bottom-10 right-[40%]'></div>
+            <div className='z-1 rounded-full p-20 bg-red-700 absolute '></div>
+          </div>
+        </div>
       </section>
+
       <Footer />
     </>
   )

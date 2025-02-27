@@ -10,7 +10,13 @@ body {
   li {
     transition: 0.2s ease-in-out;
   }
+  scrollbar-width: none;
 }
+/* Hide scrollbar for Chrome, Safari and Edge */
+::-webkit-scrollbar {
+  display: none;
+}
+
 .hero {
   // background-image: linear-gradient(rgba(0, 0, 0, 0));
   background-image: url(../public/imgs/jerry-wang-w53Fq_m11ks-unsplash.jpg);
