@@ -110,7 +110,7 @@ function Home() {
 
         <div className='flex items-center gap-5 max-w-[1500px] m-auto'>
           <div className='w-[100%] h-[400px] rounded-xl overflow-hidden mb-10'>
-            <img src='../../../public/imgs/fleeet.jpg' alt='Fleet' className='w-full h-full object-cover object-center' />
+            <img src='../../../public/imgs/buses.jpg' alt='Fleet' className='w-full h-full object-cover object-center' />
           </div>
           <div className='text-black'>
             <h1 className='text-4xl mb-4'>Invest in Vehicle Ownership and Reap Returns:</h1>

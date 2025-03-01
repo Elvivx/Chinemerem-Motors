@@ -154,7 +154,7 @@ function Services() {
           </div>
         </div>
 
-        <div className='flex flex-wrap gap-6 justify-center mb-10'>
+        <div className='flex flex-wrap gap-6 justify-center mb-10 max-w-[1000px] m-auto'>
           <div className='bg-[#1a1a21] text-white rounded-xl w-[400px]  p-5'>
             <h1 className='text-2xl font-bold mb-6'>Hire Purchase</h1>
             <p>We give you ownership of a tricycle or car, with low deposit/instalment till completion of the hire purchase amount</p>
