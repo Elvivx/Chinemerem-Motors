@@ -33,13 +33,14 @@
 
   .ServicesBgImage {
     background: url(../public/imgs/danish-prakash-Q2YrPRkQRiU-unsplash.jpg);
-    background-position: center;
-    background-size: cover;
-    background-color: rgba(0, 0, 0, 0.747);
-    background-blend-mode: multiply;
   }
   .InvestBgImage {
     background: url(../public/imgs/precondo-ca-OlSGcrLSYkw-unsplash.jpg);
+  }
+  .AboutBgImage {
+    background: url(../public/imgs/About.jpg);
+  }
+  .BgDark {
     background-position: center;
     background-size: cover;
     background-color: rgba(0, 0, 0, 0.747);

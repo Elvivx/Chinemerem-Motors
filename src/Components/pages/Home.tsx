@@ -135,9 +135,15 @@ function Home() {
           <button className='py-3 px-6 rounded-xl bg-red-600 font-semibold text-xl text-white hover:bg-red-800'>Get Started</button>
         </div>
 
-        <div className='border-2 border-red-600 p-20 relative'>
-          <div className='w-fit m-auto border-2 border-blue-600 relative '>
-            <div className='flex items-center m-auto border-2 border-blue-600 w-fit gap-20 p-20 pb-0 bg-[#1a1a21] rounded-xl z-2'>
+        <hr className='h-1 bg-black' />
+        <div className='p-20 relative mb-20'>
+          <div className='w-fit m-auto relative flex flex-col p-4'>
+            <div className='z-1 rounded-full p-20 bg-red-500 absolute -top-5 -translate-y-10'></div>
+            <div className='z-1 rounded-full p-20 bg-red-500 absolute -top-5 right-[20%] -translate-y-10'></div>
+            <div className='z-1 rounded-full p-20 bg-red-500 absolute -bottom-10 right-[40%] translate-y-10'></div>
+            <div className='z-1 rounded-full p-20 bg-red-500 absolute bottom-0 -translate-x-20'></div>
+
+            <div className='flex items-center m-auto  w-fit gap-20 p-20 pb-0 bg-[#1a1a21] rounded-xl z-10'>
               <div className='w-[200px] h-[200px] '>
                 <img src='../../../public/imgs/people.svg' alt='' className='w-full h-full object-cover' />
               </div>
@@ -151,9 +157,6 @@ function Home() {
                 <img src='../../../public/imgs/phone.svg' alt='' className='w-full h-full object-cover' />
               </div>
             </div>
-            <div className='z-1 rounded-full p-20 bg-red-700 absolute -top-10'></div>
-            <div className='z-1 rounded-full p-20 bg-red-700 absolute -bottom-10 right-[40%]'></div>
-            <div className='z-1 rounded-full p-20 bg-red-700 absolute '></div>
           </div>
         </div>
       </section>

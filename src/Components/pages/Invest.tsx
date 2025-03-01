@@ -5,7 +5,7 @@ function Invest() {
   return (
     <section>
       <NavBar />
-      <div className='flex items-center justify-center min-h-[500px] InvestBgImage'>
+      <div className='flex items-center justify-center min-h-[500px] InvestBgImage BgDark'>
         <h2 className='text-red-500 text-6xl font-bold'>Invest With Us</h2>
       </div>
       <div className='text-black text-center my-20'>
