@@ -11,7 +11,7 @@ function Services() {
         </div>
 
         <div className='flex flex-col gap-[30px] max-w-[900px]  m-auto pb-[50px]'>
-          <div className=' p-5 rounded-lg  text-black '>
+          <div className=' p-5 rounded-lg  text-black ' id='rideShare'>
             <div className='rounded-xl '>
               <div className='icon p-4 rounded-xl bg-red-50'>
                 <svg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg' height='50' width='50'>
@@ -28,15 +28,15 @@ function Services() {
                 <h2 className='font-bold text-2xl text-red-500'>Ride sharing</h2>
               </div>
             </div>
-            <div className='css-1gma6o2'>
+            <div className=''>
               <p className='font-medium text-lg'>Embark on Effortless Journeys with Us.</p>
-              <div className='css-2xph3x'>
+              <div className=''>
                 <p className='font-medium text-lg'>
                   Experience seamless urban travel with our premier ride-sharing platform. Simply tap to summon your ride, track your driver's progress in real time, and enjoy a comfortable, safe
                   journey—all at an unbeatable price
                 </p>
                 <p className='font-medium text-lg'>
-                  At Enviable Transport, we redefine transportation convenience. Our meticulously maintained vehicles and professional drivers ensure excellence from start to finish. Say goodbye to
+                  At Chinemerem Motors, we redefine transportation convenience. Our meticulously maintained vehicles and professional drivers ensure excellence from start to finish. Say goodbye to
                   uncertainty—our intuitive service addresses your needs seamlessly, letting you focus on what matters. Whether it's work commutes, leisure trips, or city exploration, trust Enviable
                   Transport for reliability, comfort, and efficiency. Experience the pinnacle of ride-sharing—request your ride today for unmatched convenience and affordability.
                 </p>
@@ -77,22 +77,22 @@ function Services() {
                 <h2 className='font-bold text-2xl text-red-500'>Inter City</h2>
               </div>
             </div>
-            <div className='css-1gma6o2'>
-              <div className='css-2xph3x'>
+            <div className=''>
+              <div className=''>
                 <p className='font-medium text-lg'>
                   Bridging Distances, Connecting Cities. Travel seamlessly and reliably with us as your trusted transportation partner. Effortlessly traverse from one city to another, bridging
                   distances with ease and comfort. Our commitment is to provide you with a journey that is both seamless and dependable, ensuring you reach your destination without any hassle.
                 </p>
                 <p className='font-medium text-lg'>
-                  At Enviable Transport, we specialize in connecting cities, making travel between them a breeze. Whether you're commuting for work or exploring a new destination, ride with us for a
+                  At Chinemerem Motors, we specialize in connecting cities, making travel between them a breeze. Whether you're commuting for work or exploring a new destination, ride with us for a
                   smooth and stress-free experience. Our reliable service ensures that you travel effortlessly, allowing you to focus on enjoying the journey itself. Experience the convenience of
-                  seamless travel with Enviable Transport. Let us take you to your destination, connecting cities and bridging distances with every ride.
+                  seamless travel with Chinemerem Motors. Let us take you to your destination, connecting cities and bridging distances with every ride.
                 </p>
               </div>
             </div>
           </div>
 
-          <div className=' p-5 rounded-lg  text-black '>
+          <div className=' p-5 rounded-lg  text-black ' id='airport'>
             <div className='rounded-xl '>
               <div className='icon p-4 rounded-xl bg-red-50'>
                 <svg data-name='Layer 1' height='50' id='Layer_1' viewBox='0 0 32 32' width='50' xmlns='http://www.w3.org/2000/svg'>
@@ -104,14 +104,14 @@ function Services() {
                 <h2 className='font-bold text-2xl text-red-500'>Airport Trips</h2>
               </div>
             </div>
-            <div className='css-1gma6o2'>
+            <div className=''>
               <p className='font-medium text-lg'>Elevate Your Airport Experience.</p>
-              <div className='css-2xph3x'>
+              <div className=''>
                 <p className='font-medium text-lg'>
                   Experience stress-free travel to the skies with our premier airport transportation service. Begin your journey with unparalleled ease and reliability as we take care of your
-                  transportation to and from the airport. Enjoy a seamless ride, meticulously crafted to ensure you reach your flight punctually, every time. At Enviable Transport, we understand the
+                  transportation to and from the airport. Enjoy a seamless ride, meticulously crafted to ensure you reach your flight punctually, every time. At Chinemerem Motors, we understand the
                   importance of a smooth airport transfer. That's why we prioritize reliability and efficiency, guaranteeing you a hassle-free journey from start to finish. With our dedicated service,
-                  you can rest assured that your airport transportation needs are in capable hands Say goodbye to travel anxieties and delays. Trust Enviable Transport to provide you with a seamless
+                  you can rest assured that your airport transportation needs are in capable hands Say goodbye to travel anxieties and delays. Trust Chinemerem Motors to provide you with a seamless
                   ride, allowing you to embark on your journey with peace of mind. Whether you're heading off on a business trip or a well-deserved vacation, let us take care of your airport
                   transportation needs, ensuring you reach your destination on time, every time.
                 </p>
@@ -119,7 +119,7 @@ function Services() {
             </div>
           </div>
 
-          <div className=' p-5 rounded-lg  text-black '>
+          <div className=' p-5 rounded-lg  text-black ' id='hireCar hireDriver'>
             <div className='rounded-xl '>
               <div className='icon p-4 rounded-xl bg-red-50'>
                 <svg version='1.1' viewBox='0 0 61.04 55.17' width={50} height={50}>
@@ -138,15 +138,15 @@ function Services() {
                 <h2 className='font-bold text-2xl text-red-500'>Hire Driver / Car</h2>
               </div>
             </div>
-            <div className='css-1gma6o2'>
+            <div className=''>
               <p className='font-medium text-lg'>Elevate Your Special Occasions with Luxury Transportation.</p>
-              <div className='css-2xph3x'>
+              <div className=''>
                 <p className='font-medium text-lg'>
                   Indulge in the luxury of professional chauffeur services or the rental of elegant vehicles for your next special event. Whether it's a wedding, anniversary, or any cherished
                   occasion, enhance your experience with our premium transportation services. Our expert drivers are dedicated to ensuring a smooth and stylish journey, allowing you to relax and focus
-                  on creating unforgettable memories. At Enviable Transport, we specialise in providing unparalleled luxury transportation for your most important events. Choose from our meticulously
+                  on creating unforgettable memories. At Chinemerem Motors, we specialise in providing unparalleled luxury transportation for your most important events. Choose from our meticulously
                   maintained fleet of vehicles, each offering comfort, sophistication, and unmatched elegance. From sleek sedans to spacious SUVs, we have the perfect vehicle to complement your style
-                  and requirements. Experience the ultimate in luxury and convenience with Enviable Transport. Let us elevate your special occasions with our premium transportation services, ensuring
+                  and requirements. Experience the ultimate in luxury and convenience with Chinemerem Motors. Let us elevate your special occasions with our premium transportation services, ensuring
                   every moment is unforgettable and every journey is extraordinary.{" "}
                 </p>
               </div>

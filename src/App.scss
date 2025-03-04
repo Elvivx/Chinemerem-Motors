@@ -21,8 +21,9 @@ body {
 header {
   nav ul {
     .active {
+      transform: translateY(-10px) !important;
       li span {
-        color: aqua !important;
+        color: rgb(255, 152, 152) !important;
       }
     }
   }
