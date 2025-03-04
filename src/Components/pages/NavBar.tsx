@@ -40,7 +40,7 @@ function NavBar() {
           </ul>
           <button className='p-3 rounded-xl border-2 border-red-700 text-m font-bold text-white bg-red-600 mr-5 min-w-[140px] ml-6'>Join Us Today</button>
         </nav>
-        <div className='hidden max-sm:block mr-4 border-2' onClick={() => setNav(!nav)}>
+        <div className='hidden max-sm:block mr-4' onClick={() => setNav(!nav)}>
           <svg fill='none' height='34' viewBox='0 0 24 24' width='34' xmlns='http://www.w3.org/2000/svg'>
             <path d='M12 5C11.4477 5 11 5.44772 11 6C11 6.55228 11.4477 7 12 7H20C20.5523 7 21 6.55228 21 6C21 5.44772 20.5523 5 20 5H12Z' fill='currentColor' />
             <path d='M7 12C7 11.4477 7.44772 11 8 11H16C16.5523 11 17 11.4477 17 12C17 12.5523 16.5523 13 16 13H8C7.44772 13 7 12.5523 7 12Z' fill='currentColor' />
