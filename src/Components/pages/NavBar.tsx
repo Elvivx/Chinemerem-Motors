@@ -10,35 +10,35 @@ function NavBar() {
           <div className=' w-[100px] '>
             <img src='../../../public/imgs/cmLogo.png' alt='logo' className='w-full h-full object-contain object-center' />
           </div>
-          <span className=' LogoText tracking-wide textOutline'>CHINEMEREM MOTORS</span>
+          <span className=' LogoText tracking-wide textOutline text-xs'>CHINEMEREM MOTORS</span>
         </NavLink>
         <nav
           className={`w-[100%] flex justify-between items-center
-            max-sm:absolute max-sm:top-20 max-sm:flex-col max-sm:bg-[#0B0B0D] max-sm:rounded-xl  max-sm:overflow-hidden ${nav ? "max-sm:h-[272px] max-sm:p-5 " : "max-sm:h-0"}
+            max-sm:absolute max-sm:top-20 max-sm:flex-col max-sm:bg-[#0B0B0D] max-sm:rounded-xl  max-sm:overflow-hidden ${nav ? "max-sm:h-[372px] max-sm:p-5 max-sm:gap-4 " : "max-sm:h-0"}
           `}>
-          <ul className='flex items-center justify-evenly text-xl w-full max-sm:flex-col'>
-            <NavLink to='/services'>
+          <ul className='flex items-center justify-evenly text-xl w-full max-sm:flex-col max-sm:gap-2'>
+            <NavLink to='/' className='max-sm:w-full max-sm:text-center'>
+              <li className='text-white hover:-translate-y-2 cursor-pointer py-4 font-semibold'>
+                <span className='border-b-red-500 hover:border-b-white border-b-2'>Home</span>
+              </li>
+            </NavLink>
+            <NavLink to='/services' className='max-sm:w-full max-sm:text-center'>
               <li className='text-white hover:-translate-y-2 cursor-pointer py-4 font-semibold'>
                 <span className='border-b-red-500 hover:border-b-white border-b-2'>Services</span>
               </li>
             </NavLink>
-            <NavLink to='/invest'>
+            <NavLink to='/invest' className='max-sm:w-full max-sm:text-center'>
               <li className='text-white hover:-translate-y-2 cursor-pointer py-4 font-semibold'>
                 <span className='border-b-red-500 hover:border-b-white border-b-2'>Invest</span>
               </li>
             </NavLink>
-            <NavLink to='/about'>
+            <NavLink to='/about' className='max-sm:w-full max-sm:text-center'>
               <li className='text-white hover:-translate-y-2 cursor-pointer py-4 font-semibold'>
                 <span className='border-b-red-500 hover:border-b-white border-b-2'>About</span>
               </li>
             </NavLink>
-            {/* <NavLink to='contact'>
-              <li className='text-white hover:-translate-y-2 cursor-pointer py-4 font-semibold'>
-                <span className='border-b-red-500 hover:border-b-white border-b-2'>Contact</span>
-              </li>
-            </NavLink> */}
           </ul>
-          <button className='p-3 rounded-xl border-2 border-red-700 text-m font-bold text-white bg-red-600 mr-5 min-w-[140px] ml-6'>Join Us Today</button>
+          <button className='p-3 rounded-xl border-2 border-red-700 text-m font-bold text-white bg-red-600 mr-5 min-w-[140px] ml-6 max-sm:w-full'>Join Us Today</button>
         </nav>
         <div className='hidden max-sm:block mr-4' onClick={() => setNav(!nav)}>
           <svg fill='none' height='34' viewBox='0 0 24 24' width='34' xmlns='http://www.w3.org/2000/svg'>
