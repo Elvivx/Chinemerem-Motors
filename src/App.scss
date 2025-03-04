@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
 body {
-  font-family: "Outfit", serif;
+  font-family: "Outfit", "CustomFont", serif;
   li {
     transition: 0.2s ease-in-out;
   }
@@ -11,8 +11,16 @@ body {
   display: none;
 }
 
+@font-face {
+  font-family: "CustomFont";
+  src: url("../src/assets/font/Outfit-VariableFont_wght.ttf") format("woff2");
+  //  url('../assets/fonts/CustomFont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 .Hero {
-  background-image: url(../public/imgs/jerry-wang-w53Fq_m11ks-unsplash.jpg);
+  background-image: url(../public/imgs/hero.jpg);
   background-position: center;
   background-size: cover;
   background-color: rgba(0, 0, 0, 0.743);
