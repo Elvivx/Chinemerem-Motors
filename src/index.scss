@@ -15,6 +15,7 @@
 * {
   box-sizing: border-box;
 }
+@import url(./App.scss);
 // @import "tailwindcss";
 @tailwind base;
 @tailwind components;
@@ -24,6 +25,9 @@
   .textOutline {
     // -webkit-text-stroke: 0.5px white;
     // color: red;
+    @media (max-width: 1250px) {
+      // display: none;
+    }
   }
   .home {
     svg {

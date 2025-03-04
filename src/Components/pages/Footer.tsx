@@ -13,9 +13,9 @@ function Footer() {
 
         <hr className='mb-8' />
         <div>
-          <div className='flex justify-between'>
+          <div className='flex justify-between max-md:flex-wrap max-md:gap-5'>
             <div className=''>
-              <h2 className='text-2xl font-bold text-red-500'>Enviable for</h2>
+              <h2 className='text-2xl font-bold text-red-500'>CM for</h2>
               <div className='flex flex-col gap-3'>
                 <a target='_blank' className='' href='https://web.enviabletransport.com/schedule_trip?tab=trip'>
                   Ride share

@@ -7,13 +7,16 @@ function Home() {
       <section className='home relative flex flex-col gap-20'>
         <div>
           <NavBar />
-          <div className='hero border-red-600 h-dvh flex items-center p-40 '>
-            <div className=' w-[50%] '>
-              <h1 className='text-8xl font-bold text-[#17171b] '>
-                <span className='text-white'>Seamless Transport, Anytime,</span>
-                <span className='text-red-500 underline'>Anywhere.</span>
+          <div className='Hero border-red-600 h-dvh flex items-center p-40 max-md:p-2'>
+            <div className=' Contents max-w-[700px] w-fit max-md:p-4'>
+              <h1 className='text-8xl font-bold text-[#17171b]  max-md:text-7xl max-[500px]:text-6xl '>
+                <span className='text-white '>
+                  Seamless Transport, Anytime,
+                  <br />
+                  <span className='text-red-500 underline'>Anywhere.</span>
+                </span>
               </h1>
-              <p className='pt-8 text-xl'>
+              <p className='pt-8 text-xl max-sm:text-base'>
                 "Reliable and efficient transportation services tailored to your needs. Whether it's local deliveries or long-distance hauls, we ensure safety, speed, and convenience every step of the
                 way." 🚛✨
               </p>
@@ -22,8 +25,8 @@ function Home() {
         </div>
         <div className='text-black py-8'>
           <h1 className='text-center font-bold text-4xl py-3'>Services We Offer</h1>
-          <div className='flex gap-3 w-[1500px] m-auto'>
-            <div className='card border-2 border-red-500 p-4 rounded-xl w-fit bg-red-500 text-white max-w-fit'>
+          <div className='flex gap-3 max-w-[1500px] m-auto max-lg:flex-col max-lg:p-4'>
+            <div className='card border-2 border-red-500 p-4 rounded-xl  bg-red-500 text-white max-w-full'>
               <div className='icon'>
                 <svg viewBox='0 0 256 256' height='50' width='50'>
                   <rect fill='none' height='50' width='50' />
@@ -40,7 +43,7 @@ function Home() {
               <hr className='h-[2px] bg-red-600 my-3' />
               <p>Share rides with friends and family conveniently. Our services are available 24/7. Effortlessly reach your destination with our convenient ride-sharing service.</p>
             </div>
-            <div className='card border-2 border-red-500 p-4 rounded-xl w-fit bg-red-500 text-white max-w-fit'>
+            <div className='card border-2 border-red-500 p-4 rounded-xl  bg-red-500 text-white max-w-full'>
               <div className='icon'>
                 <svg data-name='Layer 1' height='50' id='Layer_1' viewBox='0 0 32 32' width='50'>
                   <path d='M23,17H19.4141L16,13H14l2.5859,4H10.7207L9.5,15H8l1.0569,3.3046A1,1,0,0,0,10.0094,19H23a1,1,0,0,0,0-2Z' transform='translate(0 0)' />
@@ -53,7 +56,7 @@ function Home() {
               <hr className='h-[2px] bg-red-600 my-3' />
               <p>"Enjoy a smooth and reliable ride to and from the airport with our professional drivers and premium service. No delays, no hassle—just effortless travel."</p>
             </div>
-            <div className='card border-2 border-red-500 p-4 rounded-xl w-fit bg-red-500 text-white max-w-fit'>
+            <div className='card border-2 border-red-500 p-4 rounded-xl  bg-red-500 text-white max-w-full'>
               <div className='icon'>
                 <svg id='Layer_1_1_' version='1.1' viewBox='0 0 96 96' width='50' height='50'>
                   <polygon points='38.833,20 43.434,20 43.624,17 39.333,17 ' />
@@ -86,7 +89,7 @@ function Home() {
               <hr className='h-[2px] bg-red-600 my-3' />
               <p>Connecting cities, bridging distances. Ride with us for a seamless and reliable journey. Travel effortlessly to your destination</p>
             </div>
-            <div className='card border-2 border-red-500 p-4 rounded-xl w-fit bg-red-500 text-white max-w-fit'>
+            <div className='card border-2 border-red-500 p-4 rounded-xl  bg-red-500 text-white max-w-full'>
               <div className='icon'>
                 <svg version='1.1' viewBox='0 0 61.04 55.17' width={50} height={50}>
                   <g id='Layer_2' />
@@ -108,11 +111,11 @@ function Home() {
           </div>
         </div>
 
-        <div className='flex items-center gap-5 max-w-[1500px] m-auto'>
+        <div className='flex items-center gap-5 max-w-[1500px] m-auto max-lg:flex-col'>
           <div className='w-[100%] h-[400px] rounded-xl overflow-hidden mb-10'>
             <img src='../../../public/imgs/buses.jpg' alt='Fleet' className='w-full h-full object-cover object-center' />
           </div>
-          <div className='text-black'>
+          <div className='text-black max-lg:p-4'>
             <h1 className='text-4xl mb-4'>Invest in Vehicle Ownership and Reap Returns:</h1>
             <p className='text-lg'>
               Experience the thrill of investing in vehicle ownership with Chinemerem Motors. By partnering with us, you not only acquire ownership of high-quality vehicles but also unlock the
@@ -126,7 +129,7 @@ function Home() {
           <img src='../../../public/imgs/traffic.jpg' alt='' className='h-full w-full object-cover' />
         </div>
 
-        <div className='text-black text-center w-[1500px] m-auto mb-20'>
+        <div className='text-black text-center max-w-[1500px] m-auto mb-20 max-md:p-4'>
           <h1 className='text-5xl font-bold mb-5'>Invest with us</h1>
           <p className='text-xl mb-5'>
             Unlock Lucrative Returns on Investment through Vehicle Ownership: Partner with us in investment and leverage the potential for substantial ROI. By investing in a vehicle with us, you'll
@@ -136,7 +139,7 @@ function Home() {
         </div>
 
         <hr className='h-1 bg-black' />
-        <div className='p-20 relative mb-20'>
+        {/* <div className='p-20 relative mb-20'>
           <div className='w-fit m-auto relative flex flex-col p-4'>
             <div className='z-1 rounded-full p-20 bg-red-500 absolute -top-5 -translate-y-10'></div>
             <div className='z-1 rounded-full p-20 bg-red-500 absolute -top-5 right-[20%] -translate-y-10'></div>
@@ -158,7 +161,7 @@ function Home() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </section>
 
       <Footer />
