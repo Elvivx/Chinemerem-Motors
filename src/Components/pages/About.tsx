@@ -37,9 +37,9 @@ function About() {
           <h2 className='text-red-500 text-6xl font-bold'>About Us</h2>
         </div>
 
-        <div className='text-black w-[1500px] m-auto '>
+        <div className='text-black max-w-[1500px] m-auto max-sm:p-5'>
           <h1 className='text-center text-3xl font-bold my-5'>THE FUTURE OF TRANSPORTATION</h1>
-          <p className='text-lg'>
+          <p className='text-lg max-sm:text-base'>
             At chinemerem motors , we aim to be at the forefront of innovation, incorporating cutting-edge technology and sustainable practices to create a more efficient and environmentally friendly
             transportation system. We are visionaries with a passion for transforming the way people and goods are being moved from one place to another.Chinemerem motors , we envision a better
             Nigeria by aiming at being a remedy to a specific job problems. We strive to exceed the Nigerians expectation by offering reliable and efficient transport services that prioritize safety,
@@ -48,21 +48,21 @@ function About() {
           </p>
         </div>
 
-        <div className='ceo bg-black mt-10'>
-          <div className='flex gap-10 items-center py-10 w-[1000px]  m-auto'>
+        <div className='ceo bg-black mt-10 max-sm:py-5'>
+          <div className='flex gap-10 items-center py-10 max-w-[1000px]  m-auto max-sm:flex-col max-sm:p-4'>
             <div className=''>
               <More />
               <button className='py-3 px-6 rounded-xl bg-red-600 font-semibold text-sm text-white hover:bg-red-800' onClick={() => setMore(!more)}>
                 Read {!more ? `More` : `Less`}...
               </button>
             </div>
-            <div className={`rounded-xl border-2 border-red-500 w-[600px] h-[300px] ${more ? "hidden" : "block"} `}>
+            <div className={`rounded-xl border-2 border-red-500 w-[600px] h-[300px] max-sm:w-full max-sm:h-[300px] ${more ? "hidden" : "block"} `}>
               <img src='#' alt='' />
             </div>
           </div>
         </div>
 
-        <div className='w-[1100px] m-auto my-10 text-center'>
+        <div className='max-w-[1100px] m-auto my-10 text-center max-sm:p-4'>
           <div className='flex flex-col gap-10'>
             <div className='text-black'>
               <h1 className='text-center text-2xl font-bold'>OUR MISSION</h1>
