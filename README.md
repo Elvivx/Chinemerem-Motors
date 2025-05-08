@@ -1,2 +1,2 @@
 #Chinemerem Motors 
-Seamless transportation 
+Seamless transportations 
